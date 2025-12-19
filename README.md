@@ -22,6 +22,8 @@ Ce module agit comme un annuaire pour tous les autres microservices. Chaque serv
 
 ### 2. `gateway-service`
 C'est le point d'entrée unique pour toutes les requêtes externes. Au lieu d'exposer chaque microservice directement, les clients (navigateurs, applications mobiles, etc.) communiquent uniquement avec la passerelle.
+    <img width="1903" height="1031" alt="image" src="https://github.com/user-attachments/assets/b37c0d84-0fe7-4d8e-b094-dd44cf430c8e" />
+
 
 La passerelle a plusieurs responsabilités :
 -   **Routage dynamique**: Elle consulte Eureka pour savoir où se trouvent les services et redirige les requêtes entrantes vers les instances appropriées.
