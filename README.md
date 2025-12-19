@@ -37,6 +37,8 @@ Il s'agit d'un microservice métier simple qui expose une API REST pour gérer d
 -   Une **entité** `Client` qui représente le modèle de données.
 -   Un **repository** (basé sur Spring Data JPA) pour interagir avec une base de données (H2 en mémoire par défaut).
 -   Un **service** pour la logique métier.
+  <img width="1920" height="1028" alt="image" src="https://github.com/user-attachments/assets/ef55339c-bbfc-434f-94fe-aac0e1d36087" />
+
 
 ---
 
